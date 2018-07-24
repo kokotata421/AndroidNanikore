@@ -1,0 +1,41 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion '27.0.3'
+    defaultConfig {
+        applicationId "com.kotakawanishi.nanikore"
+        minSdkVersion 26
+        targetSdkVersion 26
+        versionCode 5
+        versionName "1.2"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            debuggable true
+        }
+    }
+}
+
+dependencies {
+    implementation 'com.android.support:support-v4:26.1.0'
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile files('libs/NCMB.jar')
+    compile files('libs/icu4j-59_1.jar')
+    compile 'com.android.support:appcompat-v7:26.1.0'
+    compile 'com.android.support.constraint:constraint-layout:1.0.0-alpha9'
+    compile 'com.android.support:design:26.1.0'
+    compile 'com.google.firebase:firebase-ads:10.0.1'
+    compile 'com.google.code.gson:gson:2.3.1'
+    compile 'com.vistrav:ask:2.4'
+    testCompile 'junit:junit:4.12'
+}
+
+apply plugin: 'com.google.gms.google-services'

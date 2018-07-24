@@ -1,0 +1,54 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_title"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="0dp"
+    android:visibility="visible"
+    tools:context="com.kotakawanishi.nanikore.TitleFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ImageView
+        android:id="@+id/title_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:padding="0dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/title_icon"
+        android:visibility="visible" />
+
+    <ImageButton
+        android:id="@+id/how_to_play_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="0dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/howtoplay_btn" />
+
+    <ImageButton
+        android:id="@+id/play_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:padding="0dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/play_btn"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="195dp" />
+
+    <ImageButton
+        android:id="@+id/sound_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:padding="0dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/sound_on_btn" />
+
+</FrameLayout>

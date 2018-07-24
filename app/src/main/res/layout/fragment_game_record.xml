@@ -1,0 +1,60 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/game_record_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="0dp"
+    android:padding="0dp"
+    tools:context="com.kotakawanishi.nanikore.GameRecordFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageButton
+        android:id="@+id/back_stage_select_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:padding="0dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/back_stage_select_btn" />
+
+    <ImageButton
+        android:id="@+id/take_exam_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:padding="0dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/take_the_exam_btn" />
+
+    <FrameLayout
+        android:id="@+id/stage_label_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/stage_label"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="0dp"
+            android:padding="0dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/easy_level_label" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/record_chart_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/record_chart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="0dp"
+            android:padding="0dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/record_chart" />
+    </FrameLayout>
+</FrameLayout>

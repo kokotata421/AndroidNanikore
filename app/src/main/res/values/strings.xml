@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Nanikore</string>
+    <string name="title_activity_game_level_select">GameLevelSelect</string>
+    <string name="sound_on">SoundOn</string>
+    <string name="banner_id">ca-app-pub-8719818866106636/5548732900</string>
+    <string name="interstitial_id">ca-app-pub-8719818866106636/8502199307</string>
+    <string name="game_record_interstitial_id">ca-app-pub-8719818866106636/7636638094</string>
+    <string name="app_key">0ac9ead5f4673bcb62e02aa5165c1dc73065338cceacd790debfc9e1997a17a1</string>
+    <string name="client_key">def1c3424ddd327cd74b57c12072a6778a4193acc065f03c335e267811fe9422</string>
+    <string name="app_id">ca-app-pub-8719818866106636~4221933705</string>
+    <string name="stage_record_class_key">StageRecord</string>
+    <string name="stage_key">stage</string>
+    <string name="passing_people_key">numberOfPassingPeople</string>
+    <string name="passing_people_class_key">NumberOfPassingPeople</string>
+    <string name="level_key">level</string>
+    <string name="stage">stage</string>
+    <string name="clear">clear</string>
+    <string name="number_key">number</string>
+    <string name="result">result</string>
+    <string name="answers">answers</string>
+    <string name="record_time">recordTime</string>
+    <string name="rank_record_key">rankOfRecord</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
